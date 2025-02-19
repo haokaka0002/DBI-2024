@@ -1,0 +1,6 @@
+SELECT *from Employees
+
+insert Employees (FirstName,LastName,BirthDate)
+values ( 'jonathan' , 'jostart', 2007-12-4)
+
+delete Employees where LastName = 'jostart'
